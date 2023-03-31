@@ -1,6 +1,5 @@
 :root {
   --header-nav-color: #2E2F42;
-  --header-contacts: #434455;
   --main-text-color: #434455;
   --title-color: #2E2F42;
   --brand-color: #4D5AE5;
@@ -32,6 +31,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .link {
@@ -48,6 +48,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .subtitle {
@@ -84,14 +85,12 @@ body {
 }
 
 .logo {
-  font: 800 18px/1.17 'Raleway' sans-serif;
+  font: 800 18px/1.17 'Raleway', sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
-  color: currentColor;
 }
 
-.logo span {
+.logo .accent {
   color: var(--brand-color);
 }
 .current-page {
@@ -101,7 +100,7 @@ body {
   font-style: normal;
 }
 
-.header .link:is(:hover, :focus) {
+.list .link:is(:hover, :focus) {
   color: var(--active-element-color);
 }
 
