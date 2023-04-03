@@ -87,10 +87,11 @@ body {
   font: 800 18px/1.17 'Raleway', sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--brand-color);
 }
 
-.logo .accent {
-  color: var(--brand-color);
+.logo .second {
+  color: var(--header-nav-color);
 }
 .contacts {
   font-style: normal;
@@ -152,6 +153,9 @@ body {
 .footer {
   color: var(--dark-bg-element-color);
   background-color: var(--dark-bg);
+}
+.footer .logo .second{
+  color: var(--dark-bg-element-color);
 }
 
 /*
