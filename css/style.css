@@ -4,7 +4,6 @@
   --title-color: #2E2F42;
   --brand-color: #4D5AE5;
   --active-element-color: #404BBF;
-  --default-btn-bg: #F4F4FD;
   --main-bg: #ffffff;
   --light-bg: #F4F4FD;
   --dark-bg: #2E2F42;
@@ -93,9 +92,6 @@ body {
 .logo .accent {
   color: var(--brand-color);
 }
-.current-page {
-  color: var(--active-element-color);
-}
 .contacts {
   font-style: normal;
 }
@@ -166,11 +162,7 @@ body {
 
 .filter .btn {
   color: var(--brand-color);
-  background-color: var(--default-btn-bg);
-}
-.btn.activ {
-  color: var(--dark-bg-title-color);
-  background-color: var(--brand-color);
+  background-color: var(--light-bg);
 }
 .filter .btn:is(:hover, :focus) {
   color: var(--dark-bg-title-color);
